@@ -33,5 +33,3 @@ The optimizer will display suggestions in the console and may output optimized c
 - Implement machine learning algorithms to suggest optimizations.
 - Extend support for more programming languages.
 
-## Author Information
-This project is maintained by Jaswanthj006.
