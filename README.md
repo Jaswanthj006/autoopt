@@ -1,92 +1,37 @@
-AutoOpt – Automatic Python Performance Optimizer
+# AutoOpt Project
 
-Overview
+## Project Overview
+AutoOpt is a Python performance optimizer designed to enhance the speed and efficiency of Python applications. This tool analyzes code and provides optimization suggestions to developers.
 
-AutoOpt is a tool that automatically improves the performance of Python programs.
-It analyzes a Python script, generates multiple optimized versions using different techniques, and selects the fastest one while ensuring the output remains correct.
+## Problem
+Many Python applications experience performance bottlenecks due to inefficient algorithms and data structures. Identifying these issues manually can be time-consuming and challenging.
 
-The goal is to reduce the time and effort developers spend on manual performance tuning.
+## Solution
+AutoOpt automates the performance analysis process, providing recommendations for optimization and implementing best practices to improve runtime and resource usage.
 
+## Features
+- Code analysis for performance bottlenecks.
+- Suggestions for alternative algorithms.
+- Integration with various Python libraries.
+- User-friendly interface for developers.
 
----
+## Project Structure
+- **src/**: Contains the source code of AutoOpt.
+- **tests/**: Includes tests for ensuring code reliability.
+- **docs/**: Documentation for the project.
 
-Problem
+## How to Run
+1. Clone the repository: `git clone https://github.com/Jaswanthj006/autoopt`
+2. Navigate to the project directory: `cd autoopt`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Run the optimizer: `python main.py`
 
-Improving Python performance is time-consuming and requires expertise.
-Developers usually try only one optimization method and may not explore all available options.
-Manual tuning becomes difficult, especially for large or compute-heavy programs.
+## Example Output
+The optimizer will display suggestions in the console and may output optimized code.
 
+## Future Improvements
+- Implement machine learning algorithms to suggest optimizations.
+- Extend support for more programming languages.
 
----
-
-Solution
-
-AutoOpt automates the optimization process:
-
-Measures original execution time
-
-Detects hardware (CPU cores, GPU availability)
-
-Runs bottleneck analysis for heavy workloads
-
-Generates optimized versions using:
-
-Vectorization
-
-Multi-core parallel execution
-
-Numba JIT compilation
-
-GPU (when available)
-
-
-Benchmarks all versions
-
-Verifies output correctness
-
-Saves the fastest version as
-<filename>_optimized.py
-
-
-
----
-
-Key Features
-
-Fully automatic optimization
-
-Hardware-aware decisions
-
-Multi-core and JIT acceleration
-
-Built-in profiling (cProfile)
-
-Output validation for safety
-
-Works from terminal or VS Code
-
-
-
----
-
-How to Run
-
-cd backend
-python3 agent.py ../test_codes/example.py
-
-Optimized file will be created:
-
-example_optimized.py
-
-
----
-
-Impact
-
-Saves developer time
-
-Improves execution speed automatically
-
-Reduces resource usage
-
-Helps developers focus on building features instead of tuning performance
+## Author Information
+This project is maintained by Jaswanthj006.
